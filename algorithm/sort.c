@@ -15,7 +15,7 @@ void print(int array[],int length){
 int main(int argc,char *argv[]){
     int list[10] = {9,2,8,1,7,3,6,4,5,0};
     print(list,10);
-    shell_sort(list,10);
+    insert_sort(list,10);
     print(list,10);
     return 0;
 }
